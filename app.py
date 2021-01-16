@@ -1,7 +1,6 @@
 import streamlit as st
 import gpt_2_simple as gpt2
 import os
-import tensorflow as tf
 
 def generate_review(review_item, confidence):
     assert(type(review_item) == str)
